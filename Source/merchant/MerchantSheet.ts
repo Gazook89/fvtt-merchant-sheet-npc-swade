@@ -51,10 +51,7 @@ class MerchantSheet extends ActorSheet {
 			return currencyCalculator.getWeight(itemData);
 		});
 		Handlebars.registerHelper('getQuantity', function (itemData, options) {
-			console.log("quantity", itemData);
-			let q =  currencyCalculator.getQuantityNumber(itemData);
-			console.log("quantity found", q);
-			return q;
+			return currencyCalculator.getQuantityNumber(itemData);
 		});
 		Handlebars.registerHelper('getPriceCurrency', function () {
 			return currencyCalculator.currency();

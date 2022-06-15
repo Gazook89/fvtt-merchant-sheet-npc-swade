@@ -1,11 +1,11 @@
 {
-	"name": "merchantsheetnpc",
-	"title": "Merchant Sheet NPC",
+	"name": "merchantsheetnpcSWADE",
+	"title": "Merchant Sheet NPC - SWADE",
 	"description": "This module adds an additional NPC sheet which can be used for shopkeepers.",
 	"version": "2.6.0",
 	"minimumCoreVersion": "9",
 	"compatibleCoreVersion": "9",
-	"author": "Lars Nørregaard (Whelan)",
+	"author": "Gazook",
 	"scripts": ["bundle.js"],
 	"languages": [
 		{
@@ -38,7 +38,7 @@
 		"merchantsheetnpc.css"
 	],
 	"socket": true,
-	"url": "https://github.com/whelan/fvtt-merchant-sheet-npc",
-	"manifest": "https://raw.githubusercontent.com/whelan/fvtt-merchant-sheet-npc/2.6.0/Source/module.json",
-	"download": "https://github.com/whelan/fvtt-merchant-sheet-npc/releases/download/2.6.0/module.zip"
+	"url": "https://github.com/Gazook89/fvtt-merchant-sheet-npc-swade",
+	"manifest": "https://github.com/Gazook89/fvtt-merchant-sheet-npc-swade/2.6.0/Source/module.json",
+	"download": "https://github.com/Gazook89/fvtt-merchant-sheet-npc-swade/releases/download/2.6.0/module.zip"
 }
